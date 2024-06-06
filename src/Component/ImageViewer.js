@@ -10,6 +10,7 @@ function ImageViewer({ file }) {
   // State to manage the current slider position
   const [slider, setSlider] = useState(0);
 
+  
   // State to manage the list of image URLs generated from the NIFTI file slices
   const [imageUrls, setImageUrls] = useState([]);
 
